@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     jira4r (0.1.0)
+      soap4r
 
 GEM
   remote: https://rubygems.org/
@@ -29,4 +30,3 @@ DEPENDENCIES
   jira4r!
   rake
   rspec
-  soap4r
