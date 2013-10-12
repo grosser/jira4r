@@ -1,6 +1,6 @@
 name = "jira4r"
 
-Gem::Specification.new name, "0.1.0" do |s|
+Gem::Specification.new name, "0.2.0" do |s|
   s.summary     = "Ruby library for controlling JIRA"
   s.homepage    = "https://github.com/grosser/jira4r"
   s.authors     = ["Michael Grosser", "bwalding", "remi"]
