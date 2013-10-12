@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    parallel (0.8.4)
+    jira4r (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -26,7 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   bump
-  parallel!
+  jira4r!
   rake
   rspec
   soap4r

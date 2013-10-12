@@ -1,6 +1,4 @@
-$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 name = "jira4r"
-require "#{name}/version"
 
 Gem::Specification.new name, "0.1.0" do |s|
   s.summary     = "Ruby library for controlling JIRA"
