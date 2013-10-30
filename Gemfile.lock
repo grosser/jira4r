@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     jira4r (1.1.0)
-      soap4r
+      soap2r
 
 GEM
   remote: https://rubygems.org/
@@ -19,7 +19,7 @@ GEM
     rspec-expectations (2.14.3)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.14.3)
-    soap4r (1.5.8)
+    soap2r (1.5.8)
       httpclient (>= 2.1.1)
 
 PLATFORMS
