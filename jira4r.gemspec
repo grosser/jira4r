@@ -8,11 +8,5 @@ Gem::Specification.new name, "1.3.0" do |s|
   s.homepage    = "https://github.com/grosser/#{name}"
   s.files = `git ls-files lib`.split("\n")
   s.license = "Apache 2.0"
-  s.add_runtime_dependency "soap4r-ng"
-
-  cert = File.expand_path("~/.ssh/gem-private-key-grosser.pem")
-  if File.exist?(cert)
-    s.signing_key = cert
-    s.cert_chain = ["gem-public_cert.pem"]
-  end
+  s.add_runtime_dependency "soap4r-ng", "~> 2.0"
 end
