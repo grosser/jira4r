@@ -1,4 +1,4 @@
-gem 'soap2r'
+gem 'soap4r-ng'
 require 'soap/rpc/driver'
 
 require 'jira4r/jira_tool'
